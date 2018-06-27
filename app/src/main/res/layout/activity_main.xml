@@ -20,8 +20,7 @@
             android:id="@+id/display"
             android:layout_width="match_parent"
             android:layout_height="62dp"
-            android:text="TextView"
-            tools:textSize="36sp" />
+            android:textSize="24dp" />
 
         <TableLayout
             android:layout_width="match_parent"
@@ -47,6 +46,8 @@
                     android:id="@+id/buttonDel"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:background="@color/colorButton"
                     android:text="Delete" />
             </TableRow>
 
@@ -58,24 +59,32 @@
                     android:id="@+id/button7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:background="@color/colorButton"
                     android:text="7" />
 
                 <Button
                     android:id="@+id/button8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:background="@color/colorButton"
                     android:text="8" />
 
                 <Button
                     android:id="@+id/button9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:background="@color/colorButton"
                     android:text="9" />
 
                 <Button
                     android:id="@+id/buttonDiv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:background="@color/colorButton"
                     android:text="/" />
 
             </TableRow>
@@ -88,24 +97,32 @@
                     android:id="@+id/button4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:background="@color/colorButton"
                     android:text="4" />
 
                 <Button
                     android:id="@+id/button5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:background="@color/colorButton"
                     android:text="5" />
 
                 <Button
                     android:id="@+id/button6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:background="@color/colorButton"
                     android:text="6" />
 
                 <Button
                     android:id="@+id/buttonMult"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:background="@color/colorButton"
                     android:text="x" />
             </TableRow>
 
@@ -117,24 +134,32 @@
                     android:id="@+id/button1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:background="@color/colorButton"
                     android:text="1" />
 
                 <Button
                     android:id="@+id/button2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:background="@color/colorButton"
                     android:text="2" />
 
                 <Button
                     android:id="@+id/button3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:background="@color/colorButton"
                     android:text="3" />
 
                 <Button
                     android:id="@+id/buttonSubt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:background="@color/colorButton"
                     android:text="-" />
             </TableRow>
 
@@ -146,24 +171,32 @@
                     android:id="@+id/buttonDot"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:background="@color/colorButton"
                     android:text="." />
 
                 <Button
                     android:id="@+id/button0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:background="@color/colorButton"
                     android:text="0" />
 
                 <Button
                     android:id="@+id/buttonEq"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:background="@color/colorButton"
                     android:text="=" />
 
                 <Button
                     android:id="@+id/buttonAdd"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:background="@color/colorButton"
                     android:text="+" />
             </TableRow>
         </TableLayout>
